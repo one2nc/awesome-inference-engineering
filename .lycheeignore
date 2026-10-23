@@ -1,0 +1,2 @@
+# Substack returns 403 to CI runners; these links work in a browser
+^https://[a-z0-9-]+\.substack\.com/
