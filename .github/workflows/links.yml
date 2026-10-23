@@ -1,0 +1,19 @@
+name: Link check
+on:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * 0'
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --max-retries 2 --timeout 20 README.md contributing.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,29 @@
+name: Suggest a resource
+description: Recommend a tool, paper, talk or hands-on resource
+title: "Resource: "
+labels: [resource]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Resource URL
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options: [Tool, Paper, Tutorial, Benchmark, Talk, Lab, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is it useful for inference engineering?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Maintenance status or benchmark caveats
