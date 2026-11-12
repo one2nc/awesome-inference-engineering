@@ -388,7 +388,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 - [Introduction to torch.compile](https://docs.pytorch.org/tutorials/intermediate/torch_compile_tutorial.html) - PyTorch's JIT compiler, used by vLLM and SGLang to fuse operators.
 - [Getting Started with CUDA Graphs](https://developer.nvidia.com/blog/cuda-graphs/) - Capturing and replaying GPU work to cut kernel launch overhead, which matters most in small-batch decode.
 - [FlexAttention](https://pytorch.org/blog/flexattention/) - PyTorch API for writing custom attention variants that compile to fused kernels.
-- [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/) - NVIDIA's reference for the CUDA programming model, memory hierarchy and execution.
+- [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html) - NVIDIA's reference for the CUDA programming model, memory hierarchy and execution.
 - [HIP Documentation](https://rocm.docs.amd.com/projects/HIP/en/latest/) - AMD's C++ GPU programming model and runtime, with a porting path from CUDA.
 - [Gluon Tutorials](https://github.com/triton-lang/triton/tree/main/python/tutorials/gluon) - Triton's lower-level language for explicit control over layouts and memory.
 - [Apache TVM](https://github.com/apache/tvm) - Open machine learning compiler framework.
