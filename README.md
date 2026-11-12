@@ -718,6 +718,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 - [About CoreWeave Inference](https://docs.coreweave.com/products/inference) - CoreWeave's options for serving models: serverless, dedicated, or self-managed on its Kubernetes service.
 - [vLLM on Vast.ai](https://docs.vast.ai/vllm-llm-inference-and-serving) - Vast.ai's template for serving LLMs with vLLM on marketplace GPUs.
 - [Serve LLM Inference on E2E GPU Nodes](https://docs.e2enetworks.com/docs/myaccount/gpu/guides/serve-llm-inference/) - E2E Networks' guide to serving an LLM on its GPU virtual machines.
+- [Rent a Cloud GPU for vLLM](https://cloudgpu.app/rent-gpu-for-vllm) - CloudGPU's guide to installing vLLM on a per-minute raw GPU instance with CUDA and root SSH and serving an OpenAI-compatible endpoint from it.
 
 #### Managed inference endpoints
 
