@@ -320,6 +320,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 #### Local and desktop
 
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - LLM inference in C/C++ for CPUs and GPUs, using the GGUF model format.
+- [Mantiq](https://github.com/dahanco/mantiq) - Standalone C++/CUDA inference engine for large MoE GGUF models, tiering experts across VRAM, RAM and NVMe with per-machine calibration and a local web dashboard.
 - [Ollama](https://github.com/ollama/ollama) - Downloads and runs open models locally behind a simple API.
 - [llamafile](https://github.com/mozilla-ai/llamafile) - Packages a model and llama.cpp into a single executable that runs on most operating systems.
 - [LocalAI](https://github.com/mudler/LocalAI) - Self-hosted, OpenAI-compatible server for running LLM, image and audio models locally.
