@@ -107,6 +107,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 
 - [KV Caching Explained](https://huggingface.co/blog/not-lain/kv-caching) - How caching keys and values speeds up transformer decoding.
 - [What Is a KV Cache, and Why Does It Make LLM Inference Faster?](https://sebastianraschka.com/faq/docs/kv-cache.html) - What the KV cache stores and why LLM inference depends on it.
+- [KV Cache Capacity Calculator](https://sungeuns.github.io/foundation-model-engineering/chapter-12/kv-cache-management/#kv-calculator) - Compare prompt and peak KV-cache memory, then calculate how many full-length requests fit a fixed budget.
 - [Paged Attention from First Principles](https://hamzaelshafie.bearblog.dev/paged-attention-from-first-principles-a-view-inside-vllm/) - PagedAttention explained from virtual-memory basics.
 
 <a id="prefill-and-decode"></a>
