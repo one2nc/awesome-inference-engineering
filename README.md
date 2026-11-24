@@ -613,6 +613,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 - [DeepCache](https://github.com/horseee/DeepCache) - Training-free acceleration by reusing high-level U-Net features across denoising steps.
 - [TeaCache](https://github.com/ali-vilab/TeaCache) - Training-free caching that skips redundant timesteps in video and image diffusion models.
 - [Nunchaku](https://github.com/nunchux-ai/nunchaku) - 4-bit inference engine for diffusion models based on SVDQuant.
+- [DiT Inference Acceleration Handbook](https://github.com/snowyLumiere/DiT-Inference-Acceleration) - 63-page Chinese engineering handbook on video DiT and continuous AR-chunk inference (Wan2.2 & SolarWM pinned-source walkthroughs, SM90 vs SM120/RTX 5090 microbenchmarks, plus a 7-page vLLM-Omni & SGLang-Omni companion).
 
 <a id="production"></a>
 
