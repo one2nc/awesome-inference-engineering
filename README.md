@@ -721,6 +721,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 - [vLLM on Vast.ai](https://docs.vast.ai/vllm-llm-inference-and-serving) - Vast.ai's template for serving LLMs with vLLM on marketplace GPUs.
 - [Serve LLM Inference on E2E GPU Nodes](https://docs.e2enetworks.com/myaccount/gpu-node/how-to/serve-llm-inference-on-a-gpu-node/) - E2E Networks' guide to serving an LLM on its GPU virtual machines.
 - [Rent a Cloud GPU for vLLM](https://cloudgpu.app/rent-gpu-for-vllm) - CloudGPU's guide to installing vLLM on a per-minute raw GPU instance with CUDA and root SSH and serving an OpenAI-compatible endpoint from it.
+- [Serve an OpenAI-compatible API with vLLM](https://apidly.com/docs/tutorial-model-api) - Apidly Cloud's guide to running vLLM on a rented GPU server and calling its OpenAI-compatible endpoint from curl, Python and JavaScript.
 
 #### Managed inference endpoints
 
