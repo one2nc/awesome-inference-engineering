@@ -170,6 +170,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 
 - [Choosing the Right Model](https://handbook.modular.com/getting-started/choosing-the-right-model/) - Criteria for picking an open model for a given task, size and budget.
 - [LLM Benchmarking Framework with LLM-as-a-JURY](https://github.com/aws-samples/sample-bedrock-migration-and-modernization-tools/blob/main/360-eval/README.md) - AWS 360-Eval, which benchmarks candidate models on your own data using a jury of LLM judges.
+- [EvalShift](https://github.com/evalshift/evalshift-cli) - CLI that runs the same test cases, or recorded agent runs, on the current and a candidate model through LiteLLM (hosted APIs, vLLM or Ollama endpoints) and reports per-case output and tool-call regressions with paired statistics.
 
 #### Evaluation
 
