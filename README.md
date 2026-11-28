@@ -109,6 +109,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 - [What Is a KV Cache, and Why Does It Make LLM Inference Faster?](https://sebastianraschka.com/faq/docs/kv-cache.html) - What the KV cache stores and why LLM inference depends on it.
 - [KV Cache Capacity Calculator](https://sungeuns.github.io/foundation-model-engineering/chapter-12/kv-cache-management/#kv-calculator) - Compare prompt and peak KV-cache memory, then calculate how many full-length requests fit a fixed budget.
 - [Paged Attention from First Principles](https://hamzaelshafie.bearblog.dev/paged-attention-from-first-principles-a-view-inside-vllm/) - PagedAttention explained from virtual-memory basics.
+- [The KV cache: why long context eats your VRAM](https://www.grep.tips/articles/kv-cache-vram) - Per-token KV cache cost worked out for Llama 3.1 8B (128 KiB per token, 16 GiB at 128K context).
 
 <a id="prefill-and-decode"></a>
 
