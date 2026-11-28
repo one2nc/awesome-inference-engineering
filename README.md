@@ -365,6 +365,7 @@ Choose a path, then use the topic index for deeper reading. The order within eac
 - [MLPerf Inference](https://github.com/mlcommons/inference) - Reference implementations of the MLPerf Inference benchmarks.
 - [Vidur](https://github.com/microsoft/vidur) - Simulator that estimates LLM serving performance across configurations without running them.
 - [InferenceX](https://github.com/SemiAnalysisAI/InferenceX) - SemiAnalysis's open benchmark that continuously runs inference engines across NVIDIA and AMD hardware (formerly InferenceMAX).
+- [NVIDIA B300 Inference Benchmark, November 2026](https://github.com/everxcloud/b300-inference-benchmark) - vLLM 0.34 throughput and latency on one B300 288 GB GPU for gpt-oss-120b, Llama 3.3 70B FP8 and gpt-oss-20b on a MIG slice; 11 runs, CSV under CC BY 4.0. Vendor-measured, not independently reproduced.
 - [PyTorch Profiler](https://docs.pytorch.org/tutorials/recipes/recipes/profiler_recipe.html) - Recording operator- and kernel-level timings and memory from PyTorch code.
 - [Holistic Trace Analysis](https://github.com/facebookresearch/HolisticTraceAnalysis) - Meta's library for analyzing PyTorch profiler traces across ranks, including idle time and communication overlap.
 - [Perfetto](https://perfetto.dev/) - Trace viewer used to inspect PyTorch and other Chrome-format traces.
